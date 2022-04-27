@@ -12,19 +12,19 @@
         <url-pattern>/index</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>RegisterPage</servlet-name>
-        <jsp-file>/RegisterPage.jsp</jsp-file>
+        <servlet-name>AttendencePage</servlet-name>
+        <jsp-file>/AttendencePage.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>RegisterPage</servlet-name>
-        <url-pattern>/Register</url-pattern>
+        <servlet-name>AttendencePage</servlet-name>
+        <url-pattern>/Attendance</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>RegisterpageADD</servlet-name>
-        <jsp-file>/RegisterpageADD.jsp</jsp-file>
+        <servlet-name>Attendenceinfo</servlet-name>
+        <jsp-file>/Attendenceinfo.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
-        <servlet-name>RegisterpageADD</servlet-name>
-        <url-pattern>/RegisterpageADD</url-pattern>
+        <servlet-name>Attendenceinfo</servlet-name>
+        <url-pattern>/Attendanceinfo</url-pattern>
     </servlet-mapping>
 </web-app>
