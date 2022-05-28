@@ -19,9 +19,9 @@
 String Name =request.getParameter("TeacherName");
 String Email=request.getParameter("email");
 int  PhoneNumber=Integer.parseInt(request.getParameter("phoneNumber"));
-out.println("TeacherName");
-out.println("email");
-out.println("phoneNumber");
+out.println(Name);
+out.println(Email);
+out.println(PhoneNumber);
 
 InsertInformation obj=new InsertInformation();
 obj.insert_information(Name,Email,PhoneNumber);
