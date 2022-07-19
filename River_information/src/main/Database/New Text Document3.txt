@@ -1,0 +1,22 @@
+CREATE TABLE `information_river` (
+  `District_name` varchar(50) NOT NULL,
+  `River_name` varchar(100) DEFAULT NULL,
+  `Height` float NOT NULL,
+  `Width` float NOT NULL,
+  `Depth` float DEFAULT NULL,
+  `Information` varchar(500) NOT NULL,
+  UNIQUE KEY `District_name_UNIQUE` (`District_name`)
+)
+
+CREATE TABLE `userinfo` (
+  `First_name` varchar(78) NOT NULL,
+  `Last_name` varchar(78) NOT NULL,
+  `User_name` varchar(78) NOT NULL,
+  `Email` varchar(78) NOT NULL,
+  `Password_r` varchar(78) NOT NULL,
+  `Id` int NOT NULL AUTO_INCREMENT,
+  `Authority` varchar(45) NOT NULL,
+  `Create_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`Id`),
+  UNIQUE KEY `Email_UNIQUE` (`Email`)
+)
